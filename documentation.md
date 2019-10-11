@@ -61,7 +61,7 @@
 - vAlertIcon -> v-alert with icon
 - vAlertNoIcon -> v-alert with no icon
 - vAlertTransition -> v-alert with transition
-- vAlertOutline -> v-alert outlined
+- vAlertOutlined -> v-alert outlined
 ### AVATAR
 - vAvatar -> v-avatar component
 - vAvatarProps -> v-avatar props list
@@ -111,7 +111,7 @@
 - vBtnFloating -> v-btn as floating
 - vBtnLoader -> v-btn with a loader when clicked
 - vBtnLoaderCustom -> v-btn with custom loader example
-- vBtnOutline -> v-btn with outline prop
+- vBtnOutlined -> v-btn with outlined prop
 - vBtnRound -> v-btn with round prop
 - vBtnBlock -> v-btn with block prop
 ### BUTTONS: FLOATING ACTIBUTTONS

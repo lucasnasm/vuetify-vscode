@@ -1652,7 +1652,7 @@
   "v-alert outlined": {
     "prefix": "vAlertOutline",
     "body": [
-      "<v-alert outline color=\"${1|primary,accent,secondary,success,info,warning,error|}\" icon=\"$2\" :value=\"${3:true}\">",
+      "<v-alert outlined color=\"${1|primary,accent,secondary,success,info,warning,error|}\" icon=\"$2\" :value=\"${3:true}\">",
       "\t$4",
       "</v-alert>$0"
     ],
@@ -2263,9 +2263,9 @@
     "description": "v-btn with custom loader example - Vuetify"
   },
   "v-btn with outline prop": {
-    "prefix": "vBtnOutline",
+    "prefix": "vBtnOutlined",
     "body": [
-      "<v-btn outline ${1:color=\"${2|primary,accent,secondary,success,info,error,red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey,black,white,transparent|}\"} dark>${3:text}</v-btn>$0"
+      "<v-btn outlined ${1:color=\"${2|primary,accent,secondary,success,info,error,red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey,black,white,transparent|}\"} dark>${3:text}</v-btn>$0"
     ],
     "description": "v-btn with outline prop - Vuetify"
   },
@@ -2774,7 +2774,7 @@
   "v-chip as outlined": {
     "prefix": "vChipOutline",
     "body": [
-      "<v-chip outline color=\"${1|primary,accent,secondary,success,info,error,red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey,black,white,transparent|}\">",
+      "<v-chip outlined color=\"${1|primary,accent,secondary,success,info,error,red,pink,purple,deep-purple,indigo,blue,light-blue,cyan,teal,green,light-green,lime,yellow,amber,orange,deep-orange,brown,blue-grey,grey,black,white,transparent|}\">",
       "\t${2:<v-icon left>${3:icon}</v-icon>}",
       "\t${4:text}",
       "</v-chip>$0"
